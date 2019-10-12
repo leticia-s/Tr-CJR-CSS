@@ -1,0 +1,147 @@
+/*--@autor: Letícia de Souza Soares
+  --@2019/2*/
+
+ /* TAGS */
+/*usar position absolut*/
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+
+    background-color: #EBEBEB;
+    background-image: url("");
+    font-family: 'Rebecca Samuels Regular';
+}
+header{ 
+    padding-top: 1em;
+    background-color: #C2CFE2;
+    height: 6em;
+    
+}
+/* CLASS */
+.TituloPrincipal{
+    color: #202A48;
+    font-weight: bold;
+    text-align: center;
+
+}
+.FrasePrincipal{
+    color: #202A48;
+    text-align: center;
+}
+.TextMenu{
+    color: white;
+    padding-right: 3.5em;
+    padding-left: 3.5em;
+    font-size: auto;     
+}
+.title-lateral{
+    font-weight: bold;
+    border-bottom: 2px solid;
+    border-color: #EBEBEB;
+    padding-bottom: 0.7em;
+    margin-bottom: 0em;
+
+}
+.title-sublinhado{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1em;
+    color: black;
+
+}
+.bloco-lateral{
+    padding: 1em 1em;
+    border-top: 1px solid;
+    border-color: #EBEBEB;
+}
+.titleAzulBloco{
+    font-size: 1em;
+    font-weight: bold;
+    color: #7285B8
+}
+.titleNegritoBloco{
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+.bloco{
+    background-color: white;
+    height: 14em;
+    width: 30em;
+    padding: 1em 1em;
+    margin: 1em 1em;
+    float:left;
+}
+.bloco-img-text{
+    height: 14em;
+    width: 39em;
+    margin: 0.3em 0.3em;
+    float:left;
+    margin: 1em 1em;
+    
+}
+.bloco-img1{
+    width: 14em;
+    height: 14em;
+    /* border-radius: 50%; */
+    background-image: url("img1.png");
+    background-size: 14em 14em;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    float:left;
+}
+.bloco-img2{
+    width: 14em;
+    height: 14em;
+    /* border-radius: 50%; */
+    background-image: url("img2.png");
+    background-size: 14em 14em;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    float:left;
+}
+.bloco-text-ladoimg{
+    background-color: white;
+    padding: 1em 1em;
+    width: 25em;
+    height: 14em;
+    float:left;
+}
+/* IDS */
+#Menu{
+    position: fixed;
+    padding-top: 0.5em;
+    text-align: center;
+    background-color: #7184BB;
+    height: auto; 
+    width: 100%;
+    padding-bottom: 0.5em;
+    box-shadow: 0px 30px 3em #cccccc;
+}
+#container{}
+#barra-lateral{
+    background-color: white;
+    width: 24em;
+    padding: 1em 1em;
+    margin: 0.3em 0.3em;
+    float: left;
+}
+#blocos{
+    padding: 1em 0.7em;
+    height: auto;
+    width: 80em;
+    margin: 0.3em 0.3em;
+    float: left;
+}
+#rolagem{
+    background-color: red;
+    margin-top: 2.5em;
+    width: 110em;
+    height: auto;
+
+}
+
+
+
